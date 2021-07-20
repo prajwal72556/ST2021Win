@@ -1,3 +1,3 @@
 import joblib
 model=joblib.load("marks.pki")
-model.predict([[20]])
+print(model.predict([[20]]))
